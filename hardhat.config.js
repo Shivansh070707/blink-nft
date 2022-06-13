@@ -4,7 +4,7 @@
  require("dotenv").config();
  require("@nomiclabs/hardhat-ethers");
  require("@nomiclabs/hardhat-etherscan");
- const { API_URL, PRIVATE_KEY ,ETHERSCAN_KEY} = process.env;
+ const { API_URL, PRIVATE_KEY } = process.env;
 
  task("accounts","Prints the list of accounts",async( taskargs , hre)=>{
   const accounts= await hre.ethers.getSigners();
@@ -25,8 +25,8 @@
      
    },
    etherscan:{
-    apikey:{
-      rinkeby:ETHERSCAN_KEY,
+    apiKey:{
+      rinkeby:"4T6GPMIGQRQA6TYAN58RE75521CWV4NK2I",
    }
  }
  }

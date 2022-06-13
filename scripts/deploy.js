@@ -12,4 +12,5 @@ async function main() {
       console.error(error);
       process.exit(1);
     });
-  // contract address  0xE60f1e6CcE81F5C083888f92baD17b2BCA29CA97
+
+  //contract address 0x3B5BeDb5E211968b395fc91e9a20810E0bEB7943

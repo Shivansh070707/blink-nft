@@ -10,7 +10,7 @@ const contract = require("../artifacts/contracts/BlinkNFT.sol/BlinkNFT.json");
 
 console.log(JSON.stringify(contract.abi));
 
-const contractAddress = "0x3B5BeDb5E211968b395fc91e9a20810E0bEB7943";
+const contractAddress = "0xbFe0fde4684Bd16b106871b6Ad0815E255D74c62";
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
 //create transaction
 async function mintNFT(tokenURI) {
@@ -50,6 +50,3 @@ async function mintNFT(tokenURI) {
       console.log(" Promise failed:", err);
     });
 }
-mintNFT(
-  "https://gateway.pinata.cloud/ipfs/Qma8PRJjah2bacwTw2eYqvVybchuePgZTrrmBYZay5Poh3"
-);

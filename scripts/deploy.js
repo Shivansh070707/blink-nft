@@ -1,8 +1,11 @@
+const hre = require("hardhat");
 async function main() {
-    const BlinkNFT = await ethers.getContractFactory("BlinkNFT");
+  const BlinkNFT = await hre.ethers.getContractFactory("BlinkNFT");
+  const blinkNFT = await BlinkNFT.deploy();
+
   
     // Start deployment, returning a promise that resolves to a contract object
-    const  blinkNFT = await  BlinkNFT.deploy();
+  
     console.log("Contract deployed to address:",  blinkNFT.address);
   }
   

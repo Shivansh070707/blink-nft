@@ -1,0 +1,11 @@
+{
+    "attributes": [
+      {
+        "color": "Blue",
+        "value": "ABC"
+      }
+    ],
+    "description": "This is a Pokemon Card.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbxdAg9LgjaSUVUNw5mLJb2JPZ4QUuXNyyP1BGSPQXNZw",
+    "name": "Pokemon Card"
+  }

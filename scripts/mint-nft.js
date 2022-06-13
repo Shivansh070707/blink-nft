@@ -10,7 +10,7 @@ const contract = require("../artifacts/contracts/BlinkNFT.sol/BlinkNFT.json");
 
 console.log(JSON.stringify(contract.abi));
 
-const contractAddress = "0x5cC2d0AeB664Fc1Dca3070b47C095E2D7e3e55C0";
+const contractAddress = "0x3B5BeDb5E211968b395fc91e9a20810E0bEB7943";
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
 //create transaction
 async function mintNFT(tokenURI) {

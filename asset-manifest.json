@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/blink-nft/static/css/main.13fda127.css",
+    "main.js": "/blink-nft/static/js/main.9c2e726d.js",
+    "static/js/787.153bd7c0.chunk.js": "/blink-nft/static/js/787.153bd7c0.chunk.js",
+    "static/media/parallax-bg.gif": "/blink-nft/static/media/parallax-bg.89e15777672c4a803141.gif",
+    "index.html": "/blink-nft/index.html",
+    "main.13fda127.css.map": "/blink-nft/static/css/main.13fda127.css.map",
+    "main.9c2e726d.js.map": "/blink-nft/static/js/main.9c2e726d.js.map",
+    "787.153bd7c0.chunk.js.map": "/blink-nft/static/js/787.153bd7c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13fda127.css",
+    "static/js/main.9c2e726d.js"
+  ]
+}
